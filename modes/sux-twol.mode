@@ -1,0 +1,1 @@
+hfst-strings2fst -S | hfst-compose-intersect '/Users/himanshu/GSOC/Apertium_MT/apertium-sux/.deps/sux.twol.hfst' | hfst-fst2strings
