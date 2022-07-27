@@ -23,6 +23,9 @@
 #    <sdef n="m" 	c="Masculine"/>
 #    <sdef n="f" 	c="Feminine"/>
 #    <sdef n="mf" 	c="Masculine / feminine"/>
+# n="neg"    c= "negative" (not)
+# coh = "cohrotative" (let me/us)
+# pre = "precative" (let him/them)
 
 
 
@@ -68,18 +71,16 @@ LEXICON poss
 <prn><poss><det><p2><mf><sg>:-zu
 <prn><poss><det><p3><mf><sg>:-ni
 <prn><poss><det><p3><nt><sg>:-bi
-<prn><sub><det><p3><m><sg>:-am3
-<prn><sub><det><p1><m><sg>:-me-en
-<prn><sub><p1><mf><sg>:-ga2-e
-<prn><sub><p1><mf><sg>:-ge26-e
-<prn><sub><p2><mf><sg>:-za-e
-<prn><sub><p2><mf><sg>:-ze2-e
-<prn><sub><p3><mf><sg>:-e-ne
-<prn><sub><p3><mf><sg>:-a-ne
-<prn><sub><p3><nt><pl>:-e-ne-ne
-<prn><sub><p3><nt><pl>:-a-ne-ne
-
-
+<prn><subj><det><p3><m><sg>:-am3
+<prn><subj><det><p1><m><sg>:-me-en
+<prn><subj><p1><mf><sg>:-ga2-e
+<prn><subj><p1><mf><sg>:-ge26-e
+<prn><subj><p2><mf><sg>:-za-e
+<prn><subj><p2><mf><sg>:-ze2-e
+<prn><subj><p3><mf><sg>:-e-ne
+<prn><subj><p3><mf><sg>:-a-ne
+<prn><subj><p3><nt><pl>:-e-ne-ne
+<prn><subj><p3><nt><pl>:-a-ne-ne
 
 
 
@@ -92,17 +93,17 @@ LEXICON number
 
 
 LEXICON case
-<gen>:-{redup}a
-<gen>:-a
+<gen>:-{redup}a   # of
+<case_into>:-a
+<case_from>:-ta
+<case_with>:-da
+<case_toward>:-se3
+<case_like_as>:-gin7
+<case_for>:-ra
 <gen>:-bi
 <gen>:-ni
-<pr>:-a
-<pr>:-ta
-<pr>:-da
-<pr>:-se3
-<pr>:-gin7
-<pr>:-ra   
-<sub>:-e
+<pr>:-a   
+<subj>:-e
 
 
 
@@ -134,7 +135,16 @@ PATTERNS
 :mod_pref? :conj_pref :case_elem :pronom_suf? :verbal_root :case_ending? verbal_root: case_elem: case_ending:?
 
 LEXICON mod_pref
-nu-
+<neg>:nu-
+<neg>:la-
+<neg>:li-
+<coh>:ga-
+<coh>:gu2-
+<coh>:gi4-
+<pre>:he2-
+<pre>:ha-
+<pre>:hu-
+
 
 
 LEXICON conj_pref
@@ -145,35 +155,35 @@ ba-
 
 
 LEXICON case_elem
-<prn><m><p1><past><sg>:
-<prn><m><p2><past><sg>:e-
-<prn><m><p3><past><sg>:un-
-<prn><m><p3><past><sg>:{redup}n-
-<prn><m><p3><past><sg>:{redup}b-
-<prn><m><p1><pl>:me-
-<prn><m><p2><sg>:ra-
-<prn><m><p3><sg>:na-
-<prn><m><p3><pl>:ne-
-<prn><m><p3><past><sg>:da-
-<prn><m><p3><past><sg>:ta-
-<prn><m><p3><past><sg>:si-
-<prn><m><p3><past><sg>:ni-
+<prn><subj><m><p1><past><sg>:
+<prn><subj><m><p2><past><sg>:e-
+<prn><subj><m><p3><past><sg>:un-
+<prn><subj><m><p3><past><sg>:{redup}n-
+<prn><subj><m><p3><past><sg>:{redup}b-
+<prn><subj><m><p1><pl>:me-
+<prn><subj><m><p2><sg>:ra-
+<prn><subj><m><p3><sg>:na-
+<prn><subj><m><p3><pl>:ne-
+<prn><subj><m><p3><past><sg>:da-
+<prn><subj><m><p3><past><sg>:ta-
+<prn><subj><m><p3><past><sg>:si-
+<prn><subj><m><p3><past><sg>:ni-
 
 
 LEXICON pronom_suf
 a-
 
 LEXICON case_ending
-<prn><sub><p1><m><sg><pres>:-en
-<prn><sub><p2><m><sg><pres>:-en
-<prn><sub><p1><m><sg>:-{redup}e-en
-<prn><sub><p3><m><sg><pres>:-e
-<prn><sub><p1><m><pl><pres>:-en-de3-en
-<prn><sub><p2><m><pl><pres>:-en-ze2-en
-<prn><sub><p3><mf><pl><prest>:-ne
-<prn><sub><p1><m><pl><past>:-{redup}e-en-de3-en
-<prn><sub><p2><m><pl><past>:-{redup}e-en-ze2-en
-<prn><sub><p3><mf><pl><past>:-es
+<prn><subj><p1><m><sg><pres>:-en
+<prn><subj><p2><m><sg><pres>:-en
+<prn><subj><p1><m><sg>:-{redup}e-en
+<prn><subj><p3><m><sg><pres>:-e
+<prn><subj><p1><m><pl><pres>:-en-de3-en
+<prn><subj><p2><m><pl><pres>:-en-ze2-en
+<prn><subj><p3><mf><pl><prest>:-ne
+<prn><subj><p1><m><pl><past>:-{redup}e-en-de3-en
+<prn><subj><p2><m><pl><past>:-{redup}e-en-ze2-en
+<prn><subj><p3><mf><pl><past>:-es
 
 
 
@@ -210,7 +220,7 @@ nin<n>:nin
 egal<n>:e2-gal
 dubsar<n>:dub-sar
 ursag<n>:ur-sag
-e<n>:e2
+e2<n>:e2
 
 
 
@@ -241,10 +251,10 @@ dim<vblex>:dim2
 
 LEXICON Named_Entities
 Dugrna<np>:du-gr\{d\}-na
-Urutu<np>:ur-{d}utu
-Luszara<np>:lu2-{d}szara2 
-Inanna<np>:{d}inanna 
-Luningirsu<np>:lu2-{d}nin-gir2-su
+Urutu<np>:ur-\{d\}utu
+Luszara<np>:lu2-\{d\}szara2 
+Inanna<np>:\{d\}inanna 
+Luningirsu<np>:lu2-\{d\}nin-gir2-su
 
 
 
