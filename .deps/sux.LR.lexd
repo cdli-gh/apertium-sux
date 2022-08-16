@@ -299,7 +299,7 @@ Conjugation
 
 LEXICON NounRoot
 
-lugal<n><gen><abs><erg>:lugal-la
+lugal<n><gen><abs>:lugal-la
 
 4(bariga)<n><abs>:4\(barig\)
 sar<n>:sar
@@ -1314,10 +1314,28 @@ sila<n><abl>:sila3-ta
 
 LEXICON verbal_root
 
+# added from christian data
 e3<vblex><mod4><mid><abl><3-sg-s>:ba-ra-ba-ta-e3
+hug<vblex><mid><3-sg-s>:ba-hun
+ag2<vblex><fin><3-nh><term><3-sg-a><sub>:ib2-szi-ag2-ge26-a
+ba<vblex><fin><3-sg-h><dat><3-sg-h-a><3-sg-p>:in-na-ba
+du3<vblex><ven><3-pl><dat><3-sg-h-a><3-sg-p>:mu-ne-du3
+gal2<vblex><fin><3-sg-h><com><3-sg-s>:in-da-gal2
+e3<vblex><ant><3-nh><abl><3-sg-h-a><3-sg-p>:ub-ta-e3
+sa<vblex><fin><3-sg-h><term><3-sg-h-a><3-sg-p><sub>:in-szi-sa10
+gal2<vblex><fin><l1><3-sg-s>:i3-gal2
+ak<vblex><3-nh><l2><3-sg-nh-p><3-sg-a><sub>:bi2-in-ak-bi
+dug<vblex><3-sg-nh><l3><3-sg-h-a><3-sg-p>:bi2-in-du11
+ur3<vblex><3-nh><l2><3-sg-h-p><3-sg-a><sub>:bi2-in-ur3
+ak<vblex><3-nh><l2><3-sg-nh-p><3-sg-a><sub>:bi2-in-ak-bi
+sa<vblex><fin><3-sg-h><term><3-sg-h-a><3-sg-p><sub>:in-szi-sa10
+ag2<vblex><fin><3-nh><term><3-sg-a><sub>:ib2-szi-ag2-ge26-a
+sa<vblex><fin><3-sg-h><term><3-sg-h-a><3-sg-p><sub>:in-szi-sa10
+hulu<mid><3-sg-s><sub>:ba-hul-a
 
 
 
+# added from mtaac gold corpus
 du3<vblex><3-sg-h-a>:mu-un-du3
 silim<vblex><nf><pt>:silim-ma
 didli<vblex><gen><nf><abs>:didli
@@ -1329,7 +1347,7 @@ b-i-n-dug<vblex><l3><3-sg-nh><3-sg-h-a><3-sg-p>:bi2-in-du11
 i-b-gu<vblex><fin><3-sg-p><3-sg-nh-a>:ib2-gu7
 hi<vblex><nf><pt><abs>:hi-a
 lal<vblex><nf><abs>:la2
--du<vblex><3-sg-h-a><3-sg-p><3-pl><dat><ven>:mu-ne-du3
+#du3<vblex><3-sg-h-a><3-sg-p><3-pl><dat><ven>:mu-ne-du3
 tuggur<vblex><gen><nf><pt>:tug2-gurx\(\|SZE.KIN\|\)
 gen<vblex><nf><pt>:gen-na
 ba<vblex><nf><pt>:ba-a
@@ -1390,7 +1408,7 @@ tusz<vblex><nf><pt>:tusz-a
 du<vblex><nf><f>:du8-de3
 -ru<vblex><3-sg-h-a><3-sg-p><3-sg-h><dat><ven>:mu-na-ru
 had<vblex><nf><abs>:had2
--gal<vblex><fin><3-sg-s><l1>:i3-gal2
+#gal<vblex><fin><3-sg-s><l1>:i3-gal2
 dul<vblex><nf><pt>:\{szu\}szudulx\(\|URxMIN\|\)
 i-n-gub<vblex><fin><3-sg-h-a><3-sg-p>:in-gub
 saga<vblex><nf><abs>:saga
