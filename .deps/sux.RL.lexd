@@ -300,7 +300,18 @@ Conjugation
 LEXICON NounRoot
 
 lugal<n><gen><abs>:lugal-la
-
+sze_ka<n><gen>:sze-ka
+erin2_na<n><gen>:erin2-na
+sza3_bi<n><3-sg-nh-poss><abl>:sza3-bi
+sze<n>:sze
+nir_gal2<n>:nir-gal2
+lugal<n>:lugal
+dumu<n>:dumu
+an_ub_da<n>:an-ub-da
+pisan_dub_ba<n>:pisan-dub-ba
+mu<n>:mu
+sze_ba<n><abs>:sze-ba
+lugal_a_ni_ir<n><3-sg-h-poss><dat-h>:lugal-a-ni-ir
 geme2_mu<n><1-sg-poss><abs>:geme2-mu
 4_barig_<n><abs>:4\(barig\)
 _gesz_an_za_am<n>:\{gesz\}an-za-am
@@ -1096,7 +1107,7 @@ sila4_ga<n><gen>:sila4-ga
 iti_de3<n><l3-nh>:iti-de3
 szu_nir<n><term>:szu-nir
 i3_gesz<n>:i3-gesz
-lugal<n>:lugal
+lugal<n><gen>:lugal
 la2_ia3_ta<n><abl>:la2-ia3-ta
 ugula<n>:ugula
 _kusz_ummu3<n>:\{kusz\}ummu3
@@ -1321,7 +1332,16 @@ ag2<vblex><fin><3-nh><term><3-sg-a><sub>:ib2-szi-ag2-ge26-a
 sa<vblex><fin><3-sg-h><term><3-sg-h-a><3-sg-p><sub>:in-szi-sa10
 hulu<vblex><mid><3-sg-s><sub>:ba-hul-a
 du3<vblex><neg><3-sg-s><sub><cop-3-sg>:nu-du3-am
-du3<vblex><3-sg-s><sub><3-sg-p>:mu-un-du3
+du3<vblex><3-sg-s><3-sg-p>:mu-un-du3
+dim2<vblex><ven><3-sg-h><dat><3-sg-h-a><3-sg-p>:mu-na-dim2
+du8<vblex><3-sg-nh><l3><3-sg-h-a><3-sg-p>:bi2-in-du8
+kal_ga<vblex><pt><nf>:kal-ga
+didli<vblex><abs><nf>:didli
+ki_ag2<vblex><pt><nf>:ki-ag2
+nir_gal2<vblex><nf>:nir-gal2
+
+
+
 
 
 # added from mtaac gold corpus
@@ -1440,7 +1460,7 @@ ba_usz2<vblex><dat-h><3-sg-s><gen><sub><mid>:ba-usz2
 zi_re<vblex><f><nf>:zi-re
 in_ni_gar_ra<vblex><3-sg-h><l2><3-sg-p><3-sg-h-a><sub><fin>:in-ni-gar-ra
 gibil<vblex><l1><nf><abs>:gibil
-mu_na_dim2<vblex><3-sg-p><ven><3-sg-h><dat>:mu-na-dim2
+#mu_na_dim2<vblex><3-sg-p><ven><3-sg-h><dat>:mu-na-dim2
 nu_zi_zi<vblex><neg><rdp><nf><abs><pt>:nu-zi-zi
 ga2_ga2_dam<vblex><rdp><f><nf><cop-3-sg>:ga2-ga2-dam
 zabar<vblex><nf><abs>:zabar
@@ -1574,7 +1594,7 @@ us2_ka_ta<vblex><gen><nf><abl><abs>:us2-ka-ta
 ba_zal<vblex><mid><l1><sub><3-sg-s>:ba-zal
 su3<vblex><nf><abs>:su3
 guz_za<vblex><pt><nf>:guz-za
-ki_ag2<vblex><nf><abs>:ki-ag2
+ki_ag2<vblex><nf><pt><abs>:ki-ag2
 dab5_ba<vblex><pt><nf>:dab5-ba
 sag<vblex><nf><abs>:sag
 gub_ba<vblex><pt><nf><abs>:gub-ba
@@ -1636,6 +1656,19 @@ LEXICON Named_Entities
 
 Urbilum<np><gn>:ur-bi2-lum\{ki\}
 Kimasz<np><sn><abs>:ki-masz\{ki\}
+Madara'abzu<np><on>:ma2-dara3-abzu
+Inanna<np><gen><dn>:\{d\}inanna
+Enkik<np><abs><gen><dn>:\{d\}en-ki-ka
+An<np><gen><dn>:an-na
+Szara<np><dn>:\{d\}szara2
+Urim<np><gen><sn>:uri5\{ki\}-ma
+Szusuen<np><rn>:\{d\}szu-\{d\}suen
+Urim<np><erg><gen><sn>:uri5\{ki\}-ma-ke4
+Urabbake<np><gen><pn>:ur-ab-ba-ke4
+Ur-...<np><pn>:ur-\{d\}...
+
+
+
 
 
 Lu'irisagki<np><gen><abl><pn>:lu2-iri-sag-ki-ta
@@ -2025,9 +2058,9 @@ Szeszani<np><gen><abl><pn>:szesz-a-ni-ta
 Amawurszage<np><pn>:ama-ur4-sza3-ge
 Badirina<np><gen><pn>:ba-ad-iri-na
 Lu'igimasze<np><pn>:lu2-\{d\}igi-ma-sze3
-Urabba<np><dat-h><pn>:ur-ab-ba
+#Urabba<np><dat-h><pn>:ur-ab-ba
 Urbaya<np><gen><abl><pn>:ur-ba-a-ta
-Szusuen<np><gen><rn>:\{d\}szu-\{d\}suen
+Szusuen<np><rn>:\{d\}szu-\{d\}suen
 Nasilim<np><pn>:na-silim
 idab<np><pn>:giri3-\{d\}ba-ba6-i3-dab5
 Lugalnir<np><gen><pn>:lugal-nir
@@ -2135,7 +2168,7 @@ _<np><pn>:...
 Iniminanna<np><gen><pn>:inim-\{d\}inanna
 E'iluruguda<np><gen><pn>:e2-i7-lu2-ru-gu2-da
 Lugalinimgina<np><gen><pn>:lugal-inim-gi-na
-Urabba<np><pn>:ur-ab-ba
+#Urabba<np><pn>:ur-ab-ba
 Lugallusasa<np><gen><pn>:lugal-lu2-sa6-sa6
 Ninnudu<np><abl><fn>:nin10-nu-du3-ta
 Abala<np><fn>:a-ba-al-la
@@ -2558,7 +2591,7 @@ Iszibene<np><gen><fn><l1>:iszib-e-ne
 Karkinna<np><sn><abs>:kar2-kin2-na\{ki\}
 _<np><pn>:ur-...
 Nanaya<np><gen><dn><term>:\{d\}na-na-a
-Inanna<np><dn><dat-h>:\{d\}inanna
+Inanna<np><dn><gen>:\{d\}inanna
 Lukala<np><dat-h><pn>:lu2-kal-la
 Lugalmeduga<np><pn>:lugal-me-du10-ga
 Urszulgir<np><gen><pn><abs>:ur-\{d\}szul-gi
@@ -2934,7 +2967,7 @@ Lu'enlila<np><pn>:lu2-\{d\}en-lil2-la2
 Inimszara<np><gen><pn>:inim-\{d\}szara2
 kuda<np><pn>:ku5-da
 Luduga<np><gen><pn>:lu2-du10-ga
-_<np><dat-h><pn>:ur-\{d\}...
+#_<np><dat-h><pn>:ur-\{d\}...
 _<np><dn>:\{d\}x-sag
 Szu'eszsza<np><mn><l1>:szu-esz5-sza
 Dadaya<np><dat-h><pn>:da-da-a
@@ -3021,7 +3054,7 @@ Luszara<np><gen><dat-h><pn>:lu2-\{d\}szara2
 Siram<np><pn>:si-ra-am
 Urim<np><gen><sn>:uri5\{ki\}
 Dingiradah<np><gen><pn>:dingir-a2-dah
-Inanna<np><dn>:\{d\}inanna
+Inanna<np><dn><gen>:\{d\}inanna
 Eridug<np><gen><sn>:eridu\{ki\}
 Ata<np><pn>:a2-ta
 Lugina<np><erg><pn>:lu2-gi-na
@@ -3218,6 +3251,8 @@ _<np><erg><pn>:ur-bad3-tibirx\(KU\)-ra
 
 LEXICON Numbers
 
+limmu<num><3-sg-nh-poss><abs><gen>:limmu2-ba
+limmu<num><3-sg-nh-poss><abs><gen>:limmu2-ba-ka-sze3
 1(disz@t)<num><gen><cop-3-sg>:1\(disz@t\)-kam
 1(asz)<num>:1\(asz\)
 igi6(disz)<num><abs>:igi-6\(disz\)-gal2
