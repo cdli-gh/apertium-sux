@@ -152,7 +152,7 @@ am__installdirs = "$(DESTDIR)$(apertium_suxdir)" \
 DATA = $(apertium_sux_DATA) $(noinst_DATA) $(pkgconfig_DATA)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/apertium-sux.pc.in \
-	AUTHORS COPYING ChangeLog INSTALL NEWS README install-sh \
+	AUTHORS COPYING ChangeLog INSTALL NEWS README.md install-sh \
 	missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
@@ -277,7 +277,6 @@ TARGETS_COMMON = \
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
-	$(LANG1).prob               \
 	$(LANG1).rlx.bin            \
 	$(LANG1).zhfst
 
